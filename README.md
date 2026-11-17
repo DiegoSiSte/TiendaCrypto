@@ -4,6 +4,8 @@ Plataforma web cripto en monorepo: Angular + Express + MySQL, con precios de Coi
 
 **Demo en GitHub Pages:** https://diegosiste.github.io/TiendaCrypto/ (frontend estático; login, órdenes y pagos requieren el backend en ejecución).
 
+El deploy se publica automáticamente con GitHub Actions en cada push a `main`.
+
 ## Arquitectura de 3 capas
 
 ```text
