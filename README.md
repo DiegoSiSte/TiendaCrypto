@@ -2,6 +2,8 @@
 
 Plataforma web cripto en monorepo: Angular + Express + MySQL, con precios de CoinGecko, noticias cacheadas, pagos simulados con BTC/ETH/USDT y chatbot con Ollama.
 
+**Demo en GitHub Pages:** https://diegosiste.github.io/TiendaCrypto/ (frontend estático; login, órdenes y pagos requieren el backend en ejecución).
+
 ## Arquitectura de 3 capas
 
 ```text
