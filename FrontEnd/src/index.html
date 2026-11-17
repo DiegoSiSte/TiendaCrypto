@@ -4,6 +4,15 @@
   <meta charset="utf-8">
   <title>CryptoDiego | Tu stack cripto, sin ruido</title>
   <base href="/">
+  <script>
+    try {
+      var target = sessionStorage.getItem('cryptodiego_redirect');
+      if (target) {
+        sessionStorage.removeItem('cryptodiego_redirect');
+        history.replaceState(null, '', target);
+      }
+    } catch (_) {}
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Servicios cripto, tienda pagable con BTC, ETH y USDT, precios en vivo y noticias. HODL con un plan.">
   <meta name="theme-color" content="#05070f">
